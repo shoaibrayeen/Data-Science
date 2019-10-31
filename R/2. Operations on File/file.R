@@ -1,14 +1,14 @@
 trainData <- read.csv(url("https://cdn.skillenza.com/files/fd584fdd-89b4-47eb-a0f5-a8ac67842920/UNI.csv"))
 testData <- read.csv(url("https://cdn.skillenza.com/files/b14b0903-97fd-4a41-8b66-aaa301f5fd8e/unitest.csv"))
 
-write.csv(testData, file = "./test.csv",row.names=FALSE )
+write.csv(testData, file = "./CSV Files/test.csv",row.names=FALSE )
 
-write.csv(trainData, file = "./train.csv",row.names=FALSE )
+write.csv(trainData, file = "./CSV Files/train.csv",row.names=FALSE )
 
 
 #Getting and Setting Paths
 getwd()
-setwd("./Desktop/")
+setwd("./CSV Files")
 getwd()
 
 
